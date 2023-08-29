@@ -6,9 +6,9 @@ from random import randint
 
 def rand_game():
 
-    attempts = 10
-    LOWER_LIMIT = 0
-    UPPER_LIMIT = 1000
+    attempts = 10       #количество попыток
+    LOWER_LIMIT = 0     #нижняя граница чисел
+    UPPER_LIMIT = 1000  #верхняя граница чисел
 
     randint_num = randint(LOWER_LIMIT, UPPER_LIMIT)
 
