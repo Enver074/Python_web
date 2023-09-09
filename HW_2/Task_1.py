@@ -81,7 +81,7 @@ def getTransaction():
 
 
 def formatCurrency(amount):
-    return "$%.2f" % amount
+    return f'{amount:_.2f}'
 
 # пополнение баланса
 def replenishment(amount):
