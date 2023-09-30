@@ -11,6 +11,4 @@ mtrx = [[1, 3, 6],
           [2, 4, 8],
           [3, 6, 9]]
 
-my_mtrx = Matrix(mtrx)
-
-print(Matrix.trans_zip(my_mtrx))
+print(Matrix.trans_zip(Matrix(mtrx)))
